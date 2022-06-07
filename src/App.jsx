@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
+import { Post } from "./components/Post";
 
 import "./global.css";
 
@@ -13,8 +14,9 @@ export function App() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          <p>Post1</p>
-          <p>Post2</p>
+          <Post />
+          <Post />
+          <Post />
         </main>
       </div>
     </div>
